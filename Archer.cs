@@ -1,9 +1,9 @@
-namespace HeroesDecorator;
+namespace MiddleEarthDecorator;
 
 public class Archer : Decorator
 
 {
-    public Archer(IHero hero) : base(hero)
+    public Archer(ICharacter character) : base(character)
     {
     }
 

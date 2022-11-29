@@ -1,8 +1,8 @@
-namespace HeroesDecorator;
+namespace MiddleEarthDecorator;
 
 public class Warrior : Decorator
 {
-    public Warrior(IHero hero) : base(hero)
+    public Warrior(ICharacter character) : base(character)
     {
     }
 

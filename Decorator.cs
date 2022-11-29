@@ -1,25 +1,25 @@
-namespace HeroesDecorator;
+namespace MiddleEarthDecorator;
 
-public class Decorator : IHero
+public class Decorator : ICharacter
 {
-    private readonly IHero _hero;
+    private readonly ICharacter _character;
 
-    protected Decorator(IHero hero)
+    protected Decorator(ICharacter character)
     {
-        _hero = hero;
+        _character = character;
     }
     public virtual string Equipment()
     {
-        return _hero.Equipment();
+        return _character.Equipment();
     }
 
     public virtual int GetAttackPower()
     {
-        return _hero.GetAttackPower();
+        return _character.GetAttackPower();
     }
 
     public string GetRaceName()
     {
-        return _hero.GetRaceName();
+        return _character.GetRaceName();
     }
 }

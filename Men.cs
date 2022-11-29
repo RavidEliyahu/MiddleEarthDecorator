@@ -1,6 +1,6 @@
-namespace HeroesDecorator;
+namespace MiddleEarthDecorator;
 
-public class Men : IHero
+public class Men : ICharacter
 {
     public string GetRaceName()
     {
