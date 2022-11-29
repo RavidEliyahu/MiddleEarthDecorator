@@ -1,18 +1,19 @@
-namespace MiddleEarthDecorator;
-
-public class Dwarf : ICharacter
+namespace MiddleEarthDecorator
 {
-    public string GetRaceName()
+    public class Dwarf : ICharacter
     {
-        return GetType().Name;
-    }
-    public string Equipment()
-    {
-        return "* Hammer";
-    }
+        public string GetRaceName()
+        {
+            return GetType().Name;
+        }
+        public string Equipment()
+        {
+            return "* Hammer";
+        }
 
-    public int GetAttackPower()
-    {
-        return 1;
+        public int GetAttackPower()
+        {
+            return 1;
+        }
     }
 }

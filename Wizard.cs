@@ -1,18 +1,19 @@
-namespace MiddleEarthDecorator;
-
-public class Wizard : Decorator
+namespace MiddleEarthDecorator
 {
-    public Wizard(ICharacter character) : base(character)
+    public class Wizard : Decorator
     {
-    }
+        public Wizard(ICharacter character) : base(character)
+        {
+        }
 
-    public override string Equipment()
-    {
-        return base.Equipment() + "\n* Staff";
-    }
+        public override string Equipment()
+        {
+            return base.Equipment() + "\n* Staff";
+        }
 
-    public override int GetAttackPower()
-    {
-        return base.GetAttackPower() + 5;
+        public override int GetAttackPower()
+        {
+            return base.GetAttackPower() + 5;
+        }
     }
 }

@@ -1,19 +1,20 @@
-namespace MiddleEarthDecorator;
-
-public class Elf : ICharacter
+namespace MiddleEarthDecorator
 {
-    public string GetRaceName()
+    public class Elf : ICharacter
     {
-        return GetType().Name;
-    }
+        public string GetRaceName()
+        {
+            return GetType().Name;
+        }
 
-    public string Equipment()
-    {
-        return "* Daggers";
-    }
+        public string Equipment()
+        {
+            return "* Daggers";
+        }
 
-    public int GetAttackPower()
-    {
-        return 4;
+        public int GetAttackPower()
+        {
+            return 4;
+        }
     }
 }

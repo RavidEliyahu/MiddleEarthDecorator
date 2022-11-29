@@ -1,18 +1,19 @@
-namespace MiddleEarthDecorator;
-
-public class Warrior : Decorator
+namespace MiddleEarthDecorator
 {
-    public Warrior(ICharacter character) : base(character)
+    public class Warrior : Decorator
     {
-    }
+        public Warrior(ICharacter character) : base(character)
+        {
+        }
 
-    public override string Equipment()
-    {
-        return base.Equipment() + "\n* Shield";
-    }
+        public override string Equipment()
+        {
+            return base.Equipment() + "\n* Shield";
+        }
 
-    public override int GetAttackPower()
-    {
-        return base.GetAttackPower() + 3;
+        public override int GetAttackPower()
+        {
+            return base.GetAttackPower() + 3;
+        }
     }
 }

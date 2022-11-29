@@ -1,19 +1,20 @@
-namespace MiddleEarthDecorator;
-
-public class Men : ICharacter
+namespace MiddleEarthDecorator
 {
-    public string GetRaceName()
+    public class Men : ICharacter
     {
-        return GetType().Name;
-    }
+        public string GetRaceName()
+        {
+            return GetType().Name;
+        }
 
-    public virtual string Equipment()
-    {
-        return "* Sword";
-    }
+        public virtual string Equipment()
+        {
+            return "* Sword";
+        }
 
-    public int GetAttackPower()
-    {
-        return 2;
+        public int GetAttackPower()
+        {
+            return 2;
+        }
     }
 }

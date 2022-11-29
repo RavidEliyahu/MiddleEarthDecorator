@@ -1,11 +1,12 @@
-namespace MiddleEarthDecorator;
-
-public interface ICharacter
+namespace MiddleEarthDecorator
 {
+    public interface ICharacter
+    {
 
-    public string GetRaceName();
+        public string GetRaceName();
 
-    public string Equipment();
+        public string Equipment();
 
-    public int GetAttackPower();
+        public int GetAttackPower();
+    }
 }
