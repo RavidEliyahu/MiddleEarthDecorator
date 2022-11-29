@@ -1,1 +1,1 @@
-# MyHeroesDecoratorExample
+# MiddleEarthDecorator
