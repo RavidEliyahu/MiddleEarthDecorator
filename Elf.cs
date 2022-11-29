@@ -16,5 +16,10 @@ namespace MiddleEarthDecorator
         {
             return 4;
         }
+
+        public void Wisdom()
+        {
+            Console.WriteLine("Thinking about the next project...");
+        }
     }
 }

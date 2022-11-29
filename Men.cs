@@ -16,5 +16,10 @@ namespace MiddleEarthDecorator
         {
             return 2;
         }
+        
+        public void Greed()
+        {
+            Console.WriteLine("I want the one ring for myself!");
+        }
     }
 }

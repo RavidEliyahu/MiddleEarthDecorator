@@ -15,5 +15,10 @@ namespace MiddleEarthDecorator
         {
             return 1;
         }
+
+        public void Mine()
+        {
+            Console.WriteLine("Mining the deeps of the Misty Mountains");
+        }
     }
 }
