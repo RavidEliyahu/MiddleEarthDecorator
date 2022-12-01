@@ -1,3 +1,5 @@
+using MiddleEarthDecorator.Components.Common;
+
 namespace MiddleEarthDecorator.Decorators.Common
 {
     public class Decorator : ICharacter

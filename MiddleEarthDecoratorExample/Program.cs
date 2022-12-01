@@ -1,5 +1,5 @@
-﻿using MiddleEarthDecorator;
-using MiddleEarthDecorator.Components;
+﻿using MiddleEarthDecorator.Components;
+using MiddleEarthDecorator.Components.Common;
 using MiddleEarthDecorator.Decorators;
 
 ICharacter noob = new Men();

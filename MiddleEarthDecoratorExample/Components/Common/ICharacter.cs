@@ -1,4 +1,4 @@
-namespace MiddleEarthDecorator
+namespace MiddleEarthDecorator.Components.Common
 {
     public interface ICharacter
     {

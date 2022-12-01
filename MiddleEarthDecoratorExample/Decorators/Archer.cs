@@ -1,3 +1,4 @@
+using MiddleEarthDecorator.Components.Common;
 using MiddleEarthDecorator.Decorators.Common;
 
 namespace MiddleEarthDecorator.Decorators;

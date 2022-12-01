@@ -1,3 +1,5 @@
+using MiddleEarthDecorator.Components.Common;
+
 namespace MiddleEarthDecorator.Components
 {
     public class Men : ICharacter
