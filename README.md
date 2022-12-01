@@ -36,5 +36,5 @@ Concrete Decorators:
 - Wizard
 - Warrior
 
-![Untitled Workspace (3)](https://user-images.githubusercontent.com/46108499/204646307-186d1c4c-52ec-4a42-9f3f-354dca633742.png)
+![Untitled Workspace (4)](https://user-images.githubusercontent.com/46108499/205107333-7f074a1a-5f90-4091-9ebe-27a917ff0771.png)
 Influenced by: [refactoring.guru](https://refactoring.guru/design-patterns/decorator) 
