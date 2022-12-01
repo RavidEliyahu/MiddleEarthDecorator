@@ -17,7 +17,7 @@ ICharacter character = new Wizard(new Warrior(new Archer(new Elf())));
 Now this one above has the greatest power among Elfs because he is wrapped with all of the concrete decorators.
 <br>
 <br>
-## UML 
+## Structure 
 Componenet:
 - ICharacter
 
@@ -35,3 +35,4 @@ Concrete Decorators:
 - Warrior
 
 ![Untitled Workspace (3)](https://user-images.githubusercontent.com/46108499/204646307-186d1c4c-52ec-4a42-9f3f-354dca633742.png)
+Influenced by: [refactoring.guru](https://refactoring.guru/design-patterns/decorator) 
