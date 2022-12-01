@@ -1,5 +1,6 @@
 # MiddleEarthDecorator
-This example allow the client to create a character from one of 3 races (Men, Elfs, Dwarves) and give it one class or many (Archer, Wizard, Warrior) no matter the order of applience.
+This example allow the client to create a character from one of 3 races (Men, Elfs, Dwarves).<br>
+In addition you can give it one class or many (Archer, Wizard, Warrior) no matter the order of applience.
 <br>
 For Example:
 ```
