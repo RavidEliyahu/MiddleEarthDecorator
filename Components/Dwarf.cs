@@ -1,25 +1,24 @@
-namespace MiddleEarthDecorator
+namespace MiddleEarthDecorator.Components
 {
-    public class Elf : ICharacter
+    public class Dwarf : ICharacter
     {
         public string GetRaceName()
         {
             return GetType().Name;
         }
-
         public string Equipment()
         {
-            return "* Daggers";
+            return "* Hammer";
         }
 
         public int GetAttackPower()
         {
-            return 4;
+            return 1;
         }
 
-        public void Wisdom()
+        public void Mine()
         {
-            Console.WriteLine("Thinking about the next project...");
+            Console.WriteLine("Mining the deeps of the Misty Mountains");
         }
     }
 }

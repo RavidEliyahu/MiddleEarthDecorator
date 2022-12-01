@@ -1,4 +1,6 @@
-namespace MiddleEarthDecorator
+using MiddleEarthDecorator.Decorators.Common;
+
+namespace MiddleEarthDecorator.Decorators
 {
     public class Warrior : Decorator
     {

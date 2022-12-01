@@ -1,4 +1,6 @@
 ﻿using MiddleEarthDecorator;
+using MiddleEarthDecorator.Components;
+using MiddleEarthDecorator.Decorators;
 
 ICharacter noob = new Men();
 ICharacter wizard = new Wizard(new Elf());
