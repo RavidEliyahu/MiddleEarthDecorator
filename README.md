@@ -1,4 +1,4 @@
-# MiddleEarthDecorator
+# RPGDecorator
 ![decorator](https://user-images.githubusercontent.com/46108499/205066092-334c3400-c557-41d7-8b0c-86ec3c6d092d.png)
 <br>
 This example allow the client to create a character from one of 3 races (Men, Elfs, Dwarves).<br>
